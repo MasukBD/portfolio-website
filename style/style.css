@@ -121,7 +121,7 @@ a {
 
 .skill {
     width: 200px;
-    height: 250px;
+    height: 260px;
     background: #FFFFFF;
     box-shadow: 0px 6px 70px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
@@ -151,4 +151,18 @@ a {
 .resume-head {
     font-weight: 800;
     margin: 30px 0;
+}
+
+.resume-section {
+    width: 35%;
+}
+
+.institute {
+    font-size: 14px;
+    color: rgb(107, 117, 126);
+    margin: 10px 0;
+}
+
+.each-section {
+    margin: 15px 0;
 }
