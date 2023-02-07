@@ -3,6 +3,23 @@
     margin: 0;
 }
 
+/* Common styles  */
+.section-title {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section-flex {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.section-width {
+    max-width: 1140px;
+    margin: 100px auto;
+}
+
 /* header file style  */
 .header {
     padding-top: 5px;
@@ -83,24 +100,11 @@ a {
 
 /* About me section  */
 
-.section-title {
-    margin-bottom: 20px;
-    text-align: center;
-}
-
 .about-me {
-    max-width: 1140px;
-    margin: 100px auto;
     text-align: center;
     background-color: #FFF8F3;
     padding: 30px;
     border-radius: 10px;
-}
-
-.about-info {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
 }
 
 .info-title {
@@ -114,11 +118,6 @@ a {
 }
 
 /* skills area  */
-.skills {
-    max-width: 1140px;
-    margin: auto;
-
-}
 
 .skill {
     width: 200px;
@@ -136,4 +135,20 @@ a {
 
 .skill img {
     margin-top: 15px;
+}
+
+/* A summary of my resume section  */
+
+.resume-details {
+    margin-top: 50px;
+}
+
+.resume-details {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.resume-head {
+    font-weight: 800;
+    margin: 30px 0;
 }
