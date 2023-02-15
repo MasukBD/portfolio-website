@@ -214,3 +214,60 @@ footer {
     font-weight: 700;
     background-color: #FFF8F3;
 }
+
+@media screen and (max-width: 576px) {
+    .header {
+        background-image: none;
+    }
+
+    .section-flex,
+    .resume-details,
+    .contact,
+    .banner {
+        margin-top: 15px;
+        flex-direction: column;
+    }
+
+    .skill-area,
+    .skill,
+    .section-width,
+    .resume-section,
+    .connect {
+        width: 95%;
+        margin: 20px auto;
+        padding: 10px 0px;
+    }
+
+    .info {
+        margin: 10px;
+    }
+
+    .sec-description,
+    .skill {
+        padding: 10px;
+    }
+
+    nav,
+    .banner {
+        width: 90%;
+
+    }
+
+    .banner img {
+        width: 100%;
+    }
+
+    nav li {
+        margin-right: 7px;
+    }
+
+    .primary-btn {
+        background: #FD6E0A;
+        border-radius: 5px;
+        border: none;
+        padding: 5px 10px;
+        font-size: 14px;
+        font-weight: 500;
+        color: white;
+    }
+}
